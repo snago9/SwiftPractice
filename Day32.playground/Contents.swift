@@ -6,10 +6,8 @@ let intArray = myArray.map{ item in
     return Int(item)
 }
 
-print(intArray)
 
 let onlyIntArray = myArray.compactMap{ item in
     return Int(item)
 }
 
-print(onlyIntArray)
